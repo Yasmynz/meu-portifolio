@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #1e1e2f;
+    --cor1: #2b2b3c;
+    --cor2: #a84fff;
+    --cor3: #dcdcff;
+    --cor4: #333348;
+
+    --fonteh1: 'Playfair Display', serif;
+    --fonteh2: 'Righteous', sans-serif;
+    --fontep: 'Inter', sans-serif;
+    --fontea: 'Quicksand', sans-serif; 
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.7s, border 1s;
+ }
