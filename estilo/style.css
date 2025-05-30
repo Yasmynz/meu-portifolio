@@ -128,6 +128,14 @@ section#redes-sociais img:hover {
     color: var(--cor0);
  }
 
+ main section mark.diferente {
+    background: #a74fffd2;
+  color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.178);
+ }
+
 .myntasy-footer {
   background: linear-gradient(135deg, var(--cor0), var(--cor1));
   padding: 3rem 1rem;
